@@ -1,0 +1,226 @@
+[
+    {
+        "id": "1",
+        "name": "Mac and Cheese",
+        "ingredients": [
+            "200g elbow macaroni",
+            "2 tbsp butter",
+            "2 tbsp flour",
+            "2 cups milk",
+            "2 cups cheddar cheese",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Cook macaroni until al dente and drain.",
+            "In a saucepan, melt butter and whisk in flour.",
+            "Gradually add milk, stirring until thickened.",
+            "Stir in cheese until melted.",
+            "Mix with macaroni and serve."
+        ],
+        "cookingTime": "30 minutes",
+        "servings": 4,
+        "image": "@/images/mac-and-cheese.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Spaghetti Bolognese",
+        "ingredients": [
+            "200g spaghetti",
+            "100g ground beef",
+            "1 cup tomato sauce",
+            "1 onion, chopped",
+            "2 cloves garlic, minced",
+            "Salt and pepper to taste"
+        ],
+        "instructions": [
+            "Cook spaghetti until al dente.",
+            "Sauté onion and garlic, then add ground beef.",
+            "Add tomato sauce and simmer for 15 minutes.",
+            "Serve sauce over spaghetti."
+        ],
+        "cookingTime": "35 minutes",
+        "servings": 2,
+        "image": "/images/spaghetti.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Classic Lasagna",
+        "ingredients": [
+            "9 lasagna noodles",
+            "2 cups ricotta cheese",
+            "2 cups mozzarella cheese",
+            "1 cup grated parmesan",
+            "2 cups meat sauce",
+            "1 egg",
+            "Salt and pepper"
+        ],
+        "instructions": [
+            "Boil lasagna noodles and set aside.",
+            "Mix ricotta, egg, salt, and pepper.",
+            "Layer noodles, ricotta, meat sauce, and mozzarella in a baking dish.",
+            "Repeat layers and top with parmesan.",
+            "Bake at 375°F (190°C) for 45 minutes."
+        ],
+        "cookingTime": "1 hour",
+        "servings": 6,
+        "image": "/images/lasagna.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Chicken Cordon Bleu",
+        "ingredients": [
+            "4 chicken breasts",
+            "4 slices ham",
+            "4 slices Swiss cheese",
+            "1 cup breadcrumbs",
+            "2 eggs",
+            "Salt and pepper"
+        ],
+        "instructions": [
+            "Pound chicken breasts flat and season.",
+            "Place ham and cheese on each breast and roll tightly.",
+            "Dip in beaten egg and coat with breadcrumbs.",
+            "Bake at 400°F (200°C) for 30 minutes or until golden."
+        ],
+        "cookingTime": "45 minutes",
+        "servings": 4,
+        "image": "/images/cordon-bleu.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Binignit",
+        "ingredients": [
+            "2 cups coconut milk",
+            "1 cup water",
+            "1 sweet potato, diced",
+            "1 saba banana, sliced",
+            "1 cup cooked tapioca pearls",
+            "1/2 cup jackfruit strips",
+            "1/4 cup brown sugar",
+            "1/4 cup glutinous rice"
+        ],
+        "instructions": [
+            "Boil coconut milk and water in a pot.",
+            "Add glutinous rice and cook until soft.",
+            "Add sweet potatoes and bananas, cook until tender.",
+            "Add sugar, tapioca pearls, and jackfruit.",
+            "Simmer until thick and serve warm."
+        ],
+        "cookingTime": "40 minutes",
+        "servings": 4,
+        "image": "/images/binignit.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Red Velvet Cake",
+        "ingredients": [
+            "2 1/2 cups flour",
+            "1 1/2 cups sugar",
+            "1 tsp baking soda",
+            "1 tsp cocoa powder",
+            "1 cup buttermilk",
+            "2 eggs",
+            "1 cup vegetable oil",
+            "1 tsp vanilla",
+            "2 tbsp red food coloring",
+            "1 tsp vinegar"
+        ],
+        "instructions": [
+            "Mix dry ingredients together.",
+            "In another bowl, combine wet ingredients.",
+            "Combine all and pour into a cake pan.",
+            "Bake at 350°F (175°C) for 30–35 minutes.",
+            "Cool and frost with cream cheese frosting."
+        ],
+        "cookingTime": "1 hour",
+        "servings": 8,
+        "image": "/images/red-velvet.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Egg Pie",
+        "ingredients": [
+            "1 pie crust",
+            "4 eggs",
+            "1 can evaporated milk",
+            "1/2 cup sugar",
+            "1 tsp vanilla extract"
+        ],
+        "instructions": [
+            "Preheat oven to 350°F (175°C).",
+            "Beat eggs, add sugar, milk, and vanilla.",
+            "Pour into the pie crust.",
+            "Bake for 45 minutes or until firm.",
+            "Cool before serving."
+        ],
+        "cookingTime": "1 hour",
+        "servings": 6,
+        "image": "/images/egg-pie.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Pork Adobo",
+        "ingredients": [
+            "1 kg pork belly",
+            "1/2 cup soy sauce",
+            "1/2 cup vinegar",
+            "4 cloves garlic, minced",
+            "2 bay leaves",
+            "1 tsp black peppercorns",
+            "1 cup water"
+        ],
+        "instructions": [
+            "Combine all ingredients in a pot.",
+            "Marinate for 30 minutes.",
+            "Bring to a boil, lower heat and simmer for 1 hour.",
+            "Cook until meat is tender and sauce is reduced."
+        ],
+        "cookingTime": "1 hour 15 minutes",
+        "servings": 5,
+        "image": "/images/adobo.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Lechon Kawali",
+        "ingredients": [
+            "1 kg pork belly",
+            "1 tbsp salt",
+            "1 tsp pepper",
+            "3 cups water",
+            "Oil for deep frying"
+        ],
+        "instructions": [
+            "Boil pork belly with salt and pepper until tender.",
+            "Let it dry completely.",
+            "Deep-fry until golden and crispy.",
+            "Slice and serve with liver sauce."
+        ],
+        "cookingTime": "1 hour 30 minutes",
+        "servings": 6,
+        "image": "/images/lechon-kawali.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Beef Caldereta",
+        "ingredients": [
+            "1 kg beef stew meat",
+            "1 cup tomato sauce",
+            "1/2 cup liver spread",
+            "1 potato, diced",
+            "1 carrot, diced",
+            "1 bell pepper, sliced",
+            "2 cloves garlic",
+            "1 onion",
+            "Salt and pepper"
+        ],
+        "instructions": [
+            "Sauté onion and garlic, add beef and brown.",
+            "Add tomato sauce and simmer until tender.",
+            "Add vegetables and liver spread.",
+            "Cook until sauce thickens and vegetables are soft."
+        ],
+        "cookingTime": "1 hour 20 minutes",
+        "servings": 5,
+        "image": "/images/caldereta.jpg"
+    }
+]
