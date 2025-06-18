@@ -17,9 +17,11 @@
             "Stir in cheese until melted.",
             "Mix with macaroni and serve."
         ],
-        "cookingTime": "30 minutes",
+        "cookingTime": "30 mins",
         "servings": 4,
-        "image": "/images/food-images/mac-cheese.png"
+        "image": "/images/food-images/mac-cheese.png",
+        "description": "A creamy, cheesy comfort food favorite made with tender elbow macaroni and rich cheddar sauce. Perfect for weeknight dinners or indulgent side dishes.",
+        "background": "/images/food-backgrounds/mac-cheese.png"
     },
     {
         "id": "2",
@@ -38,9 +40,11 @@
             "Add tomato sauce and simmer for 15 minutes.",
             "Serve sauce over spaghetti."
         ],
-        "cookingTime": "35 minutes",
+        "cookingTime": "35 mins",
         "servings": 2,
-        "image": "/images/food-images/spaghetti.png"
+        "image": "/images/food-images/spaghetti.png",
+        "description": "A hearty Italian classic with rich tomato sauce and seasoned ground beef. Served over al dente spaghetti for a satisfying meal.",
+        "background": "/images/food-backgrounds/spaghetti.png"
     },
     {
         "id": "3",
@@ -61,9 +65,11 @@
             "Repeat layers and top with parmesan.",
             "Bake at 375°F (190°C) for 45 minutes."
         ],
-        "cookingTime": "1 hour",
+        "cookingTime": "1 hr",
         "servings": 6,
-        "image": "/images/food-images/lasagna.png"
+        "image": "/images/food-images/lasagna.png",
+        "description": "Layers of pasta, creamy ricotta, meat sauce, and melted cheese create the ultimate comfort food. Baked to golden perfection for family feasts.",
+        "background": "/images/food-backgrounds/lasagna.png"
     },
     {
         "id": "4",
@@ -82,9 +88,11 @@
             "Dip in beaten egg and coat with breadcrumbs.",
             "Bake at 400°F (200°C) for 30 minutes or until golden."
         ],
-        "cookingTime": "45 minutes",
+        "cookingTime": "45 mins",
         "servings": 4,
-        "image": "/images/food-images/chicken-cordon.png"
+        "image": "/images/food-images/chicken-cordon.png",
+        "description": "Juicy chicken breasts wrapped around ham and Swiss cheese, then baked until crispy. A gourmet dish perfect for elegant dinners.",
+        "background": "/images/food-backgrounds/chicken-cordon.png"
     },
     {
         "id": "5",
@@ -106,9 +114,11 @@
             "Add sugar, tapioca pearls, and jackfruit.",
             "Simmer until thick and serve warm."
         ],
-        "cookingTime": "40 minutes",
+        "cookingTime": "40 mins",
         "servings": 4,
-        "image": "/images/food-images/binignit.png"
+        "image": "/images/food-images/binignit.png",
+        "description": "A sweet Filipino stew made with coconut milk, root crops, and fruits. Warm and hearty, it's traditionally served during Holy Week.",
+        "background": "/images/food-backgrounds/binignit.png"
     },
     {
         "id": "6",
@@ -132,9 +142,11 @@
             "Bake at 350°F (175°C) for 30–35 minutes.",
             "Cool and frost with cream cheese frosting."
         ],
-        "cookingTime": "1 hour",
+        "cookingTime": "1 hr",
         "servings": 8,
-        "image": "/images/food-images/spaghetti.png"
+        "image": "/images/food-images/redvelvet.png",
+        "description": "A moist and velvety cake with a subtle cocoa flavor and deep red color. Often frosted with tangy cream cheese for a rich finish.",
+        "background": "/images/food-backgrounds/red-velvet.png"
     },
     {
         "id": "7",
@@ -153,9 +165,11 @@
             "Bake for 45 minutes or until firm.",
             "Cool before serving."
         ],
-        "cookingTime": "1 hour",
+        "cookingTime": "1 hr",
         "servings": 6,
-        "image": "/images/food-images/egg-pie.png"
+        "image": "/images/food-images/egg-pie.png",
+        "description": "A popular Filipino dessert with a sweet, creamy custard filling in a buttery crust. Best served chilled or slightly warm.",
+        "background": "/images/food-backgrounds/egg-pie.png"
     },
     {
         "id": "8",
@@ -175,9 +189,11 @@
             "Bring to a boil, lower heat and simmer for 1 hour.",
             "Cook until meat is tender and sauce is reduced."
         ],
-        "cookingTime": "1 hour 15 minutes",
+        "cookingTime": "1 hr 15 mins",
         "servings": 5,
-        "image": "/images/food-images/adobo.png"
+        "image": "/images/food-images/adobo.png",
+        "description": "A beloved Filipino dish made with pork simmered in soy sauce, vinegar, and spices. Tender, flavorful, and perfect with rice.",
+        "background": "/images/food-backgrounds/adobo.png"
     },
     {
         "id": "9",
@@ -195,8 +211,33 @@
             "Deep-fry until golden and crispy.",
             "Slice and serve with liver sauce."
         ],
-        "cookingTime": "1 hour 30 minutes",
+        "cookingTime": "1 hr 30 mins",
         "servings": 6,
-        "image": "/images/food-images/lechon-kawali.png"
+        "image": "/images/food-images/lechon-kawali.png",
+        "description": "Crispy fried pork belly that's tender on the inside and golden on the outside. A crunchy Filipino favorite best dipped in liver sauce.",
+        "background": "/images/food-backgrounds/lechon-kawali.png"
+    },
+    {
+        "id": "10",
+        "name": "Leche Flan",
+        "ingredients": [
+            "10 egg yolks",
+            "1 can (390g) condensed milk",
+            "1 can (370ml) evaporated milk",
+            "1 cup sugar",
+            "1 tsp vanilla extract"
+        ],
+        "instructions": [
+            "Melt sugar in a pan over low heat until golden brown. Pour into a llanera or mold and let it harden.",
+            "In a bowl, gently whisk egg yolks. Add condensed milk, evaporated milk, and vanilla extract. Mix until well combined.",
+            "Strain the mixture to remove bubbles and pour over the caramel in the mold.",
+            "Cover with foil and steam for 30–35 minutes or until set.",
+            "Let cool, then refrigerate. To serve, run a knife around the edges and invert onto a plate."
+        ],
+        "cookingTime": "1 hr",
+        "servings": 8,
+        "image": "/images/food-images/leche-flan.png",
+        "description": "A rich, creamy custard topped with golden caramel. This Filipino dessert melts in your mouth and is a must for celebrations.",
+        "background": "/images/food-backgrounds/leche-flan.png"
     }
 ]

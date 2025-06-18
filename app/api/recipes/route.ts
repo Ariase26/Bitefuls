@@ -1,5 +1,6 @@
 import recipes from '@/data/recipes.json';
 import {NextResponse} from 'next/server';
+import { Recipe } from '@/types/recipe';
 
 export async function GET(request: Request){
     const {searchParams} = new URL(request.url);
@@ -10,7 +11,7 @@ export async function GET(request: Request){
     let filteredRecipes = recipes;
 
     if(search){
-        filteredRecipes = filteredRecipes.filter((recipe: any) =>
+        filteredRecipes = filteredRecipes.filter((recipe: Recipe) =>
             recipe.name.toLowerCase().includes(search)
         );
     }

@@ -6,17 +6,17 @@
 @tailwind utilities;
 
 :root {
-  --gunmetal: #232B35ff;
-  --charcoal: #253A4Bff;
-  --old-lace: #F5EEDEff;
-  --barn-red: #69200Cff;
-  --rufous: #9E280Cff;
-  --rich-black: #192028ff;
-  --charcoal-2: #3A454Dff;
-  --raw-umber: #9C5831ff;
-  --satin-sheen-gold: #C6962Bff;
-  --licorice: #151115ff;
-  --eerie-black: #171B1Fff;
+  --gunmetal: #232b35;
+  --charcoal: #253a4b;
+  --old-lace: #f5eede;
+  --barn-red: #69200c;
+  --rufous: #9e280c;
+  --rich-black: #192028;
+  --charcoal-2: #3a454d;
+  --raw-umber: #9c5831;
+  --satin-sheen-gold: #c6962b;
+  --licorice: #151115;
+  --eerie-black: #171b1f;
 
   --lora-font: 'Lora', serif;
   --playfair-font: 'Playfair Display', serif;
@@ -32,18 +32,30 @@ body {
   font-family: var(--lora-font);
 }
 
-.active-home{
-  border: 1px solid white; 
-}
-
+.active-home,
 .active-recipe{
-  border: 1px solid white; 
-}
-
-.active-categories{
   border: 1px solid white; 
 }
 
 .shadow-text{
   text-shadow: 0px 0px 5px rgba(0,0,0,1);
+}
+
+.ribbon {
+  --r: .4em;
+  --c: var(--barn-red);
+
+  position: absolute;
+  left: calc(-1.1*var(--r));
+  line-height: 2; 
+  padding: 0 .5em calc(2*var(--r));
+  border-radius: var(--r) 0 0 var(--r);
+  background: 
+    radial-gradient(100% 50% at left,var(--c) 98%,#0000 101%)
+     100% 0/.5lh calc(100% - 2*var(--r)),
+    radial-gradient(100% 50% at right,#0005 98%,#0000 101%) 
+     0 100%/var(--r) calc(2*var(--r)),
+    conic-gradient(from 90deg at var(--r) calc(100% - 2*var(--r)),#0000 25%,var(--c) 0)
+     0 0/calc(101% - .5lh) 100%;
+  background-repeat: no-repeat;   
 }

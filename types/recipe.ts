@@ -5,5 +5,7 @@ export type Recipe = {
     instructions: string[],
     cookingTime: string,
     servings: number,
-    image: string
+    image: string,
+    description: string,
+    background: string,
 };

@@ -9,21 +9,33 @@ export default {
   theme: {
     extend: {
       colors: {
-        gunmetal: "var(--gunmetal)",
-        charcoal: "var(--charcoal)",
-        oldlace: "var(--old-lace)",
-        barnred: "var(--barn-red)",
-        rufous: "var(--rufous)",
-        richblack: "var(--rich-black)",
-        charcoaltwo: "var(--charcoal-2)",
-        rawumber: "var(--raw-umber)",
-        satinsheengold: "var(--satin-sheen-gold)",
-        licorice: "var(--licorice)",
-        eerieblack: "var(--eerie-black)",
+        gunmetal: "#232b35",
+        charcoal: "#253a4b",
+        oldlace: "#f5eede",
+        barnred: "#69200c",
+        rufous: "#9e280c",
+        richblack: "#192028",
+        charcoaltwo: "#3a454d",
+        rawumber: "#9c5831",
+        satinsheengold: "#c6962b",
+        licorice: "#151115",
+        eerieblack: "#171b1f",
       },
       fontFamily: {
         playfair: "var(--font-playfair)",
         lora: "var(--font-lora)",
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {opacity: '0', transform: 'translateY(10px)'},
+          '100%': {opacity: '1', transform: 'translateY(0)'},
+        },
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-out',
+      },
+      backgroundImage: {
+        swirl: "url('/images/textures/swirl.png')",
       },
     },
   },
