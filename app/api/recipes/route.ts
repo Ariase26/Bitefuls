@@ -6,7 +6,8 @@ export async function GET(request: Request){
     const {searchParams} = new URL(request.url);
 
     const search = searchParams.get('search')?.toLowerCase() || '';
-    // const filter = searchParams.get('filter')?.toLowerCase() || '';
+    const filterServing = searchParams.get('servings') || '';
+    const filterTime = searchParams.get('time') || '';
 
     let filteredRecipes = recipes;
 
@@ -15,6 +16,19 @@ export async function GET(request: Request){
             recipe.name.toLowerCase().includes(search)
         );
     }
+
+    if (filterServing) {
+        filteredRecipes = filteredRecipes.filter((recipe: Recipe) =>
+            recipe.servings === Number(filterServing)
+        );
+    }
+
+    if (filterTime) {
+        filteredRecipes = filteredRecipes.filter((recipe: Recipe) =>
+            recipe.cookingTime === filterTime
+        );
+    }
+    
     console.log('Recipes:', filteredRecipes);
 
     return NextResponse.json(filteredRecipes);
