@@ -1,14 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --gunmetal: #232B35ff;
+  --charcoal: #253A4Bff;
+  --old-lace: #F5EEDEff;
+  --barn-red: #69200Cff;
+  --rufous: #9E280Cff;
+  --rich-black: #192028ff;
+  --charcoal-2: #3A454Dff;
+  --raw-umber: #9C5831ff;
+  --satin-sheen-gold: #C6962Bff;
+  --licorice: #151115ff;
+  --eerie-black: #171B1Fff;
+
+  --lora-font: 'Lora', serif;
+  --playfair-font: 'Playfair Display', serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--old-lace);
+  background: var(--charcoal-2);
+  font-family: var(--lora-font);
+}
+
+.active-home{
+  border: 1px solid white; 
+}
+
+.active-recipe{
+  border: 1px solid white; 
+}
+
+.active-categories{
+  border: 1px solid white; 
+}
+
+.shadow-text{
+  text-shadow: 0px 0px 5px rgba(0,0,0,1);
 }

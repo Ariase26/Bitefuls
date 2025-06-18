@@ -9,8 +9,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        gunmetal: "var(--gunmetal)",
+        charcoal: "var(--charcoal)",
+        oldlace: "var(--old-lace)",
+        barnred: "var(--barn-red)",
+        rufous: "var(--rufous)",
+        richblack: "var(--rich-black)",
+        charcoaltwo: "var(--charcoal-2)",
+        rawumber: "var(--raw-umber)",
+        satinsheengold: "var(--satin-sheen-gold)",
+        licorice: "var(--licorice)",
+        eerieblack: "var(--eerie-black)",
+      },
+      fontFamily: {
+        playfair: "var(--font-playfair)",
+        lora: "var(--font-lora)",
       },
     },
   },

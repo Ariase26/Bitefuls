@@ -19,7 +19,7 @@
         ],
         "cookingTime": "30 minutes",
         "servings": 4,
-        "image": "@/images/mac-and-cheese.jpg"
+        "image": "/images/food-images/mac-cheese.png"
     },
     {
         "id": "2",
@@ -40,7 +40,7 @@
         ],
         "cookingTime": "35 minutes",
         "servings": 2,
-        "image": "/images/spaghetti.jpg"
+        "image": "/images/food-images/spaghetti.png"
     },
     {
         "id": "3",
@@ -63,7 +63,7 @@
         ],
         "cookingTime": "1 hour",
         "servings": 6,
-        "image": "/images/lasagna.jpg"
+        "image": "/images/food-images/lasagna.png"
     },
     {
         "id": "4",
@@ -84,7 +84,7 @@
         ],
         "cookingTime": "45 minutes",
         "servings": 4,
-        "image": "/images/cordon-bleu.jpg"
+        "image": "/images/food-images/chicken-cordon.png"
     },
     {
         "id": "5",
@@ -108,7 +108,7 @@
         ],
         "cookingTime": "40 minutes",
         "servings": 4,
-        "image": "/images/binignit.jpg"
+        "image": "/images/food-images/binignit.png"
     },
     {
         "id": "6",
@@ -134,7 +134,7 @@
         ],
         "cookingTime": "1 hour",
         "servings": 8,
-        "image": "/images/red-velvet.jpg"
+        "image": "/images/food-images/spaghetti.png"
     },
     {
         "id": "7",
@@ -155,7 +155,7 @@
         ],
         "cookingTime": "1 hour",
         "servings": 6,
-        "image": "/images/egg-pie.jpg"
+        "image": "/images/food-images/egg-pie.png"
     },
     {
         "id": "8",
@@ -177,7 +177,7 @@
         ],
         "cookingTime": "1 hour 15 minutes",
         "servings": 5,
-        "image": "/images/adobo.jpg"
+        "image": "/images/food-images/adobo.png"
     },
     {
         "id": "9",
@@ -197,30 +197,6 @@
         ],
         "cookingTime": "1 hour 30 minutes",
         "servings": 6,
-        "image": "/images/lechon-kawali.jpg"
-    },
-    {
-        "id": "10",
-        "name": "Beef Caldereta",
-        "ingredients": [
-            "1 kg beef stew meat",
-            "1 cup tomato sauce",
-            "1/2 cup liver spread",
-            "1 potato, diced",
-            "1 carrot, diced",
-            "1 bell pepper, sliced",
-            "2 cloves garlic",
-            "1 onion",
-            "Salt and pepper"
-        ],
-        "instructions": [
-            "Sauté onion and garlic, add beef and brown.",
-            "Add tomato sauce and simmer until tender.",
-            "Add vegetables and liver spread.",
-            "Cook until sauce thickens and vegetables are soft."
-        ],
-        "cookingTime": "1 hour 20 minutes",
-        "servings": 5,
-        "image": "/images/caldereta.jpg"
+        "image": "/images/food-images/lechon-kawali.png"
     }
 ]
