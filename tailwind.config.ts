@@ -32,7 +32,7 @@ export default {
         },
       },
       animation: {
-        'fade-in': 'fadeIn 0.5s ease-out',
+        'fade-in': 'fadeIn 0.3s ease-in-out',
       },
       backgroundImage: {
         swirl: "url('/images/textures/swirl.png')",

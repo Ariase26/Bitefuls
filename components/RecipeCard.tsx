@@ -14,7 +14,7 @@ type CardInfo = {
 
 export default function RecipeCard( {recipe} : RecipeCardProps ) {
     function formatDescription(description: string): string {
-        return description.substring(0, 100) + (description.length > 100 ? '...' : '');
+        return description.substring(0, 115) + (description.length > 115 ? '...' : '');
     }
 
     function formatServing(servings: number): string {
@@ -53,17 +53,19 @@ export default function RecipeCard( {recipe} : RecipeCardProps ) {
                         {formatDescription(recipe.description)}
                     </p>
 
-                    <div className="flex flex-row justify-between w-full items-center">
-                        <div className="flex flex-row gap-2">
+                    <div className="flex flex-row justify-between w-full items-center mt-3 mb-3 lg:mt-1 lg:mb-0">
+                        <div className="flex flex-col lg:flex-row gap-2 w-full">
                             {cardInfo.map((item, idx) => (
-                                <p key={idx} className='text-charcoaltwo h-7 text-sm flex flex-row justify-center items-center border border-satinsheengold rounded-full px-2 py-1 bg-white'>
+                                <p key={idx} className='text-charcoaltwo h-7 text-sm flex flex-row justify-start lg:justify-center items-center border border-satinsheengold rounded-full px-2 py-1 bg-white'>
                                     {item.icon}
-                                    {item.text}
+                                    <span className="w-full">{item.text}</span>
                                 </p>
                             ))}
                         </div>
-
-                        <button type="button" className="w-12 h-12 flex justify-center items-center rounded-full bg-barnred hover:bg-rufous transition-all duration-300 ease-in-out"> ► </button>
+                        
+                        <div className="ml-5 lg:ml-0 lg:-mr-1 flex justify-end items-center">
+                            <button type="button" className="w-12 h-12 flex justify-center items-center rounded-full bg-barnred hover:bg-rufous transition-all duration-300 ease-in-out"> ► </button>
+                        </div>
                     </div>
 
                 </div>

@@ -26,6 +26,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body{
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
 body {
   color: var(--old-lace);
   background: var(--charcoal-2);
